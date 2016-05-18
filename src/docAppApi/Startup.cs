@@ -72,6 +72,7 @@ namespace docAppApi
 			loggerFactory.AddConsole(Configuration.GetSection("Logging"));
 			loggerFactory.AddDebug();
 
+			app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 			app.UseMvc();
 		}
 	}

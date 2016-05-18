@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "version": "1.0.0-rc2-3002702",
+      "type": "platform"
+    },
+    "Microsoft.EntityFrameworkCore.Tools": {
+      "type": "build",
+      "version": "1.0.0-preview1-final"
+    },
+    "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0-rc2-final",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-final",
+    "Microsoft.EntityFrameworkCore": "1.0.0-rc2-final",
+    "docAppDomain": "1.0.0-*",
+    "Microsoft.EntityFrameworkCore.Sqlite": "1.0.0-rc2-final"
+  },
+
+  "tools": {
+    "Microsoft.EntityFrameworkCore.Tools": {
+      "imports": [ "portable-net451+win8" ],
+      "version": "1.0.0-preview1-final"
+    }
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dotnet5.6",
+        "dnxcore50",
+        "portable-net45+win8"
+      ],
+      "buildOptions": {
+        "emitEntryPoint": true
+      }
+    }
+  },
+
+  "runtimeOptions": {
+    "gcServer": true
+  },
+
+  "scripts": {
+    "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
+  }
+}

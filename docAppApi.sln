@@ -16,6 +16,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "docAppDomain", "src\docAppD
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "docAppSqliteProvider", "src\docAppSqliteProvider\docAppSqliteProvider.xproj", "{79A4DEB4-B0F0-4EC4-8C1F-F79FB430B7F0}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "docAppSqlite2Provider", "src\docAppSqlite2Provider\docAppSqlite2Provider.xproj", "{0A82D4A2-15BF-4698-B563-0F2C8522AC0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{79A4DEB4-B0F0-4EC4-8C1F-F79FB430B7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79A4DEB4-B0F0-4EC4-8C1F-F79FB430B7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79A4DEB4-B0F0-4EC4-8C1F-F79FB430B7F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A82D4A2-15BF-4698-B563-0F2C8522AC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A82D4A2-15BF-4698-B563-0F2C8522AC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A82D4A2-15BF-4698-B563-0F2C8522AC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A82D4A2-15BF-4698-B563-0F2C8522AC0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,5 +48,6 @@ Global
 		{6A3FEAF4-6E2C-4E9D-92C3-C0665D0C0C46} = {85027BCB-72B1-4505-B39D-EB8F81EE8086}
 		{7962D5B4-4DF6-4DA7-B802-3959C68A5379} = {85027BCB-72B1-4505-B39D-EB8F81EE8086}
 		{79A4DEB4-B0F0-4EC4-8C1F-F79FB430B7F0} = {85027BCB-72B1-4505-B39D-EB8F81EE8086}
+		{0A82D4A2-15BF-4698-B563-0F2C8522AC0B} = {85027BCB-72B1-4505-B39D-EB8F81EE8086}
 	EndGlobalSection
 EndGlobal

@@ -12,7 +12,7 @@ namespace docAppApi
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
-                .UseStartup<Startup>()
+                .UseStartup<Startup>().UseUrls(new string[] { "http://10.27.145.59:5000" })
                 .Build();
 
             host.Run();

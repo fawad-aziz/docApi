@@ -73,7 +73,7 @@ namespace docAppApi
 			loggerFactory.AddDebug();
 
 			app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
-			app.UseMvc();
+			app.UseMvc(options => options.ApplicationBuilder.UseCors(builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
 		}
 	}
 }

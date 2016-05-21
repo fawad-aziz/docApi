@@ -19,7 +19,7 @@
     "docAppApi": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://10.27.145.59:5000",
+      "launchUrl": "http://172.245.56.21:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

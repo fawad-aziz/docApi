@@ -28,7 +28,7 @@ namespace docAppSqlite2Provider
 
 			//var sqlConnectionString = configuration["DataAccessSqliteProvider:ConnectionString"];
 
-			optionsBuilder.UseSqlite("Filename=./docApp.sqlite");
+			optionsBuilder.UseSqlite("Filename=../../../../docApp.sqlite");
 		}
 
 		public override int SaveChanges()

@@ -19,7 +19,7 @@
     "docAppApi": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://172.245.56.21:5000",
+      "launchUrl": "http://unix:/var/aspnet/docApp/kestrel.sock",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
